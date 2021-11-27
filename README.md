@@ -25,10 +25,11 @@
 
 #### 项目截图
 
-1. 管理员端：![管理员首页](https://gitee.com/zxr-xiaoha/campus-examination-system/raw/9daa9f4a375cf91676bc4adf1f5f67a39434ad1d/img/image-20211127122654977.png)
+1. ##### 管理员端：![管理员首页](https://gitee.com/zxr-xiaoha/campus-examination-system/raw/9daa9f4a375cf91676bc4adf1f5f67a39434ad1d/img/image-20211127122654977.png)
+
 2. 管理员端添加试卷![管理员添加试卷](https://gitee.com/zxr-xiaoha/campus-examination-system/raw/9daa9f4a375cf91676bc4adf1f5f67a39434ad1d/img/image-20211127122745572.png)
-3. 教师端：![教师端首页](https://gitee.com/zxr-xiaoha/campus-examination-system/raw/9daa9f4a375cf91676bc4adf1f5f67a39434ad1d/img/image-20211127122945482.png)
-4. 
+
+3. <font color="red">**查看项目其它图片可以点击img文件夹**</font>
 
 #### 其它介绍
 
