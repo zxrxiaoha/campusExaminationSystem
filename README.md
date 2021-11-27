@@ -19,15 +19,15 @@
 2.  管理员admin文件夹，教师端是teacher文件夹，学生端是student文件夹，服务器端是server文件夹
 3.  下载下来后，这四个文件夹都需要初始化，都是进入根目录，然后运行 npm install（有淘宝镜像的最好用cnpm install ）。
 4.  建议先启动server(服务器端)，因为管理员，教师，学生这些都需要server提供数据
-5.  ![image-20211127122322922](C:\Users\zxr\AppData\Roaming\Typora\typora-user-images\image-20211127122322922.png)
+5.  ![image-20211127122322922](D:\projectHBuilder\19-biyesheji\img\image-20211127122322922.png)
 6.  然后，这四个文件夹都是进入根目录，然后运行 npm run serve 来启动项目。
-7.  ![image-20211127122022797](C:\Users\zxr\AppData\Roaming\Typora\typora-user-images\image-20211127122022797.png)
+7.  ![image-20211127122022797](D:\projectHBuilder\19-biyesheji\img\image-20211127122022797.png)
 
 #### 项目截图
 
-1. 管理员端：![image-20211127122654977](C:\Users\zxr\AppData\Roaming\Typora\typora-user-images\image-20211127122654977.png)
-2. 管理员端添加试卷![image-20211127122745572](C:\Users\zxr\AppData\Roaming\Typora\typora-user-images\image-20211127122745572.png)
-3. 教师端：![image-20211127122945482](C:\Users\zxr\AppData\Roaming\Typora\typora-user-images\image-20211127122945482.png)
+1. 管理员端：![image-20211127122654977](D:\projectHBuilder\19-biyesheji\img\image-20211127122654977.png)
+2. 管理员端添加试卷![image-20211127122745572](D:\projectHBuilder\19-biyesheji\img\image-20211127122745572.png)
+3. 教师端：![image-20211127122945482](D:\projectHBuilder\19-biyesheji\img\image-20211127122945482.png)
 4. 
 
 #### 其它介绍
