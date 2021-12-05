@@ -28,7 +28,7 @@
 
 5. ![初始化](https://gitee.com/zxr-xiaoha/campus-examination-system/raw/9daa9f4a375cf91676bc4adf1f5f67a39434ad1d/img/image-20211127122322922.png)
 
-6. 然后，这四个文件夹都是进入根目录，然后运行 npm run serve 来启动项目。
+6. 然后，这四个文件夹（admin,teacher,student,server）都是进入根目录，然后运行 npm run serve 来启动项目。
 
 7. ![运行项目](https://gitee.com/zxr-xiaoha/campus-examination-system/raw/9daa9f4a375cf91676bc4adf1f5f67a39434ad1d/img/image-20211127122022797.png)
 
