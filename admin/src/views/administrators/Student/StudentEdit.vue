@@ -20,8 +20,8 @@
         <el-input
           v-model="model.sId"
           placeholder="只能为数字，登录时根据这个登录"
-          minlength='10'
-          maxlength='10'
+          minlength="10"
+          maxlength="10"
         ></el-input>
       </el-form-item>
       <el-form-item label="密码：" prop="password" v-if="!id">
@@ -111,7 +111,19 @@ export default {
           if (this.id) {
             list = await this.$http.put(`rest/student_users/${this.id}`, this.model);//发请求
           } else {
-            list = await this.$http.post('rest/student_users', this.model);//发请求
+            try {
+              list = await this.$http.post('rest/student_users', this.model);//发请求
+            } catch (error) {
+              this.$message({
+                type: 'error',
+                message: '学号格式错误!'
+              });
+              this.dsq && clearTimeout(this.dsq);
+              this.dsq = setTimeout(() => {
+                this.loading.close()
+              }, 2000)
+              return false;
+            }
           }
           if (list.status == 200) {
             this.loading.close()
