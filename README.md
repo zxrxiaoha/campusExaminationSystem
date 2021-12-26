@@ -20,15 +20,15 @@
 
 1. 下载或克隆项目。该项目拥有：管理员端+教师端+学生端+服务器端
 
-2. 管理员admin文件夹，教师端是teacher文件夹，学生端是student文件夹，服务器端是server文件夹
+2. 管理员和教师是adminOrTeacher文件夹，学生端是student文件夹，服务器端是server文件夹
 
-3. 下载下来后，这四个文件夹都需要初始化，都是进入根目录，然后运行 npm install（有淘宝镜像的最好用cnpm install ）。
+3. 下载下来后，这三个文件夹（adminOrTeacher、server、student）都需要初始化，都是进入根目录，然后运行 npm install（有淘宝镜像的最好用cnpm install ）。
 
 4. 建议先启动server(服务器端)，因为管理员，教师，学生这些都需要server提供数据
 
 5. ![初始化](https://gitee.com/zxr-xiaoha/campus-examination-system/raw/9daa9f4a375cf91676bc4adf1f5f67a39434ad1d/img/image-20211127122322922.png)
 
-6. 然后，这四个文件夹（admin,teacher,student,server）都是进入根目录，然后运行 npm run serve 来启动项目。 
+6. 然后，这三个文件夹（adminOrTeacher、server、student）都是进入根目录，然后运行 npm run serve 来启动项目。 
 
 7. ![运行项目](https://gitee.com/zxr-xiaoha/campus-examination-system/raw/9daa9f4a375cf91676bc4adf1f5f67a39434ad1d/img/image-20211127122022797.png)
 
