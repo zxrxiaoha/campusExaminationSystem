@@ -13,12 +13,16 @@
 1. 安装node.js
 2. 安装MongoDb数据库 https://www.runoob.com/mongodb/mongodb-window-install.html
 3. 数据库比较难安装。（注意要细心哦）
+   1. 大概就是安装在c盘，
+   2. 然后在c盘根目录创建data文件夹
+   3. 在data文件夹中创建db文件夹
+   4. 进入安装mongodb的bin目录，打开`mongo.exe`和`mongod.exe`
 4. 安装完数据库，打开cmd命令行窗口 输入mongod启动mongodb服务器在打开一个cmd窗口，输入mongo连接mongodb（不要关闭命令行窗口）
    1. 或者进入数据库安装的目录
    2. ![打开数据库](https://gitee.com/zxr-xiaoha/campus-examination-system/raw/0ecf575b47ca72765bb9111026b3c12503df2422/img/%E6%89%93%E5%BC%80%E6%95%B0%E6%8D%AE%E5%BA%93.png)
    3. 启动mongo.exe和mongod.exe(启动后不要关闭)
-5. 指定数据库：use test_system
-6. 为数据库插入一条数据，最好就是：db.adminusers.insert({name:"root",password:"root"})
+5. 指定数据库：`use test_system`（在mongo.exe打开的控制台中输入）
+6. 为数据库插入一条数据，最好就是：`db.adminusers.insert({name:"root",password:"root"})`（在mongo.exe打开的控制台中输入）
 
 #### 使用说明
 
