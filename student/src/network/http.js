@@ -1,6 +1,7 @@
 import axios from 'axios'
 const http = axios.create({
-  baseURL: 'http://localhost:5000/api'
+   baseURL: 'http://localhost:5000/api'
+  //baseURL: 'http://466x3521o6.qicp.vip:48921/api'
 })
 // 添加请求拦截器
 http.interceptors.request.use(function (config) {
