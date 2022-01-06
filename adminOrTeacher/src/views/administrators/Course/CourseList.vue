@@ -9,7 +9,7 @@
     >
       <el-table-column label="Date" prop="date" sortable> </el-table-column>
       <el-table-column label="课程" prop="name" sortable> </el-table-column>
-      <el-table-column label="课程" prop="writer" sortable> </el-table-column>
+      <el-table-column label="作者" prop="writer" sortable> </el-table-column>
       <el-table-column label="课程图片" prop="logoImg">
         <template slot-scope="scope">
           <img :src="scope.row.logoImg" style="height: 3rem" />
